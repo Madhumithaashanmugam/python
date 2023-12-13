@@ -16,5 +16,18 @@ def check_win(player,computer):
             return "Rock smashes scissors! you win!"
         else:
             return "paper covers rock! you lose."
-    
-check_win("rock","paper") 
+    elif player == "paper" :
+        if computer == "rock":
+            return "paper covers rock! you win!"
+        else:
+            return "scussors cuts paper! you lose."
+    elif player == "scissors" :
+        if computer == "paper":
+            return "scissors cuts paper! you win!"
+        else:
+            return "rock smashes scissors! you lose."
+
+choices = get_choice() #accessing dictionary value 
+result = check_win(choices["player"],choices["computer"])
+print(result)
+     
