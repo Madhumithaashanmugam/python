@@ -10,9 +10,13 @@ for suit in suits:
 def shuffle():
     random.shuffle(cards)   
 def deal(number):
-    card = cards.pop()
-    return card
+    cards_dealt =[]
+    for x in range(number):
+         card = cards.pop()
+         cards_dealt.append(card)
+    return cards_dealt
 
 shuffle()
-card_dealt= deal(2)
-print(card_dealt)
+cards_dealt= deal(2)
+card = cards_dealt[0]
+print(card)
