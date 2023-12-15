@@ -51,4 +51,4 @@ deck.shuffle()
 
 hand = Hand()
 hand.add_card(deck.deal(2))
-print(hand.cards[0])
+print(hand.cards[0],hand.cards[1])
