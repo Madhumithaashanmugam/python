@@ -55,28 +55,33 @@ class Hand:
             self.value += card_value
             if card.rank["rank"] == "A":
                 has_ace = True
-                
+                  
         if has_ace and self.value > 21:
             self.value -= 10
             
     def get_value(self):
-        self.claculate_value
+        self.claculate_value()
         return self.value
     
-    def is_blackjack(self):
+    def is_blackjack(self, show_all_dealer_cards = False):
         self.claculate_value()
         return self.get_value() == 21
     def display(self):
         print(f'''{"Dearler's" if self.dealer else "your"}hand: ''')
-        for card in self.cards:
-            print(card)
+        for index, card in enumerate(self.cards):
+            if index == 0 and self.dealer\
+                and not show_all_dealer_cards and not self.is_blackjack():
+                print("hidden")
+            else:
+                print(card)
         if not self.dealer:
             print("value:", self.get_value())
-deck = Deck()
-deck.shuffle()
-
-hand = Hand()
-hand.add_card(deck.deal(2))
-print(hand.cards[0],hand.cards[1])
-
-hand.get_value()              
+            print()
+class Game:
+    def play(self):
+        game_number = 0    
+        game_to_play = 0
+        
+        game_to_play =int(input("How many games do you want to play ?  "))
+g = Game()
+g.play()
