@@ -1,3 +1,6 @@
+# These are the mini one-day projects I've completed while learning Python.
+
+
 # Blackjack Game
 
 ## Overview
@@ -27,7 +30,7 @@ Play the Game: During each round, you will be dealt two cards, and the dealer wi
 **Winning:*** The objective is to get a hand value of 21 or as close to it as possible without exceeding it. The dealer will reveal the hidden card after the player's turn and will draw until reaching a minimum value of 17. The winner is determined based on whose hand is closer to 21 without exceeding it.
 ## Installation
 Clone this repository to your local machine:
-bash :git clone https://github.com/your-username/blackjack-game.git
+bash :git clone https://github.com/Madhumithaashanmugam/python.git
 
 **Navigate to the project directory:**
 bash: cd blackjack-game
@@ -40,7 +43,8 @@ bash: python blackjack.py
 
 **Images:**
 
+![Screenshot 2024-08-19 150915](https://github.com/user-attachments/assets/bdd16b01-c00e-47f9-89ff-be4f5392740f)
+
 ![Screenshot 2024-08-19 151050](https://github.com/user-attachments/assets/1544f362-23b4-42c1-999e-9fda84294385)
 
 
-![Screenshot 2024-08-19 150915](https://github.com/user-attachments/assets/bdd16b01-c00e-47f9-89ff-be4f5392740f)
