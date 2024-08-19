@@ -33,13 +33,13 @@ Clone this repository to your local machine:
 bash :git clone https://github.com/Madhumithaashanmugam/python.git
 
 **Navigate to the project directory:**
-bash: cd blackjack-game
+bash: cd blackjackproject
 
 Ensure you have Python installed on your system.
 Usage
 
 **Run the game using Python:**
-bash: python blackjack.py
+bash: python blackjackproject.py
 
 **Images:**
 
@@ -67,7 +67,7 @@ This is a simple console-based Rock-Paper-Scissors game implemented in Python. T
 ## How to Play
 1. **Run the Game**: Start the game by running the script.
    ```bash
-   python rock_paper_scissors.py
+   python rock_paper_scissirs.py
 Enter Your Choice: When prompted, enter your choice ("rock", "paper", or "scissors").
 
 **View the Result:** The game will display what both you and the computer chose, and it will tell you whether you won, lost, or tied.
@@ -78,7 +78,7 @@ bash: git clone https://github.com/Madhumithaashanmugam/python.git
 
 **Navigate to the project directory:**
 bash 
-cd rock-paper-scissors
+cd rock-paper-scissirs
 
 Ensure you have Python installed on your system.
 
@@ -86,7 +86,47 @@ Usage
 Run the game using Python:
 
 bash
-python rock_paper_scissors.py
+python rock_paper_scissirs.py
 
 ![Screenshot 2024-08-19 152519](https://github.com/user-attachments/assets/7e634385-fea3-43e1-be08-4959bdcbd84b)
+
+# To-Do List Application
+
+## Overview
+This is a simple console-based To-Do List application implemented in Python. The application allows users to manage their tasks by adding, removing, and viewing them. It is designed to help users keep track of their tasks in a straightforward and easy-to-use manner.
+
+## Features
+- **Add Task**: Users can add a new task to their To-Do List.
+- **Remove Task**: Users can remove a specific task from their To-Do List.
+- **View Tasks**: Users can view all the tasks in their To-Do List, with each task numbered for easy reference.
+
+## How to Use
+1. **Run the Application**: Start the application by running the script.
+   ```bash
+   python todo_list.py
+
+   
+Choose an Option: You will be presented with a menu:
+1. Add Task: Enter the task you want to add.
+2. Remove Task: Enter the task you want to remove.
+3. View Tasks: View all the tasks currently in your To-Do List.
+4. Quit: Exit the application.
+
+
+Manage Your Tasks: Use the options to add, remove, or view tasks as needed.
+Installation
+**Clone this repository to your local machine:**
+bash: git clone https://github.com/your-username/todo-list.git
+
+Navigate to the project directory:
+bash: cd todolist
+
+Ensure you have Python installed on your system.
+
+Usage
+Run the application using Python:
+
+bash
+python todolist.py
+![Screenshot 2024-08-19 152834](https://github.com/user-attachments/assets/8cca05e4-34d2-4607-b34b-bb903b2b103c)
 
