@@ -48,3 +48,45 @@ bash: python blackjack.py
 ![Screenshot 2024-08-19 151050](https://github.com/user-attachments/assets/1544f362-23b4-42c1-999e-9fda84294385)
 
 
+# Rock-Paper-Scissors Game
+
+## Overview
+This is a simple console-based Rock-Paper-Scissors game implemented in Python. The player can choose between rock, paper, or scissors, and the computer randomly selects one of the three options. The game then determines the winner based on the classic rules of Rock-Paper-Scissors.
+
+## Features
+- **Player Input**: The player can choose between "rock", "paper", or "scissors".
+- **Computer Choice**: The computer randomly selects "rock", "paper", or "scissors".
+- **Result Display**: The game compares the player's choice with the computer's choice and displays the result, indicating whether the player won, lost, or if it's a tie.
+
+## Game Rules
+- **Rock** smashes **Scissors**.
+- **Scissors** cut **Paper**.
+- **Paper** covers **Rock**.
+- If both the player and the computer choose the same option, it's a tie.
+
+## How to Play
+1. **Run the Game**: Start the game by running the script.
+   ```bash
+   python rock_paper_scissors.py
+Enter Your Choice: When prompted, enter your choice ("rock", "paper", or "scissors").
+
+**View the Result:** The game will display what both you and the computer chose, and it will tell you whether you won, lost, or tied.
+
+**Installation**
+**Clone this repository to your local machine:**
+bash: git clone https://github.com/Madhumithaashanmugam/python.git
+
+**Navigate to the project directory:**
+bash 
+cd rock-paper-scissors
+
+Ensure you have Python installed on your system.
+
+Usage
+Run the game using Python:
+
+bash
+python rock_paper_scissors.py
+
+![Uploading Screenshot 2024-08-19 151050.png…]()
+
