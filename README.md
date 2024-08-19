@@ -88,5 +88,5 @@ Run the game using Python:
 bash
 python rock_paper_scissors.py
 
-![Uploading Screenshot 2024-08-19 151050.png…]()
+![Screenshot 2024-08-19 151050](https://github.com/user-attachments/assets/997e364b-926f-4706-b1cf-17151a4bdb1f)
 
